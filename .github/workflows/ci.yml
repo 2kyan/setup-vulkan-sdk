@@ -93,7 +93,7 @@ jobs:
   #         which spirv-cross
   # 
   setup-ubuntu-with-local-config-json:
-    if: ${{ contains(github.event.inputs.extra_tests, 'default') }}
+    #if: ${{ contains(github.event.inputs.extra_tests, 'default') }}
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
