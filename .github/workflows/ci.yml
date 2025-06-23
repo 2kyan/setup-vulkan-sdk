@@ -8,12 +8,12 @@ on:
         extra_tests:
           description: 'Enable additional CI tests'
           required: false
-          default: 'false'
+          default: 'true'
         components:
           description: Vulkan SDK Components
           required: false
-          default: 'Vulkan-Headers Vulkan-Loader SPIRV-Headers SPIRV-Cross SPIRV-Tools SPIRV-Reflect Glslang'
-          # Vulkan-ValidationLayers robin-hood-hashing 
+          default: 'Vulkan-Headers Vulkan-Loader SPIRV-Headers SPIRV-Cross SPIRV-Tools SPIRV-Reflect Glslang Vulkan-ValidationLayers'
+          #robin-hood-hashing 
         versions:
           description: Vulkan SDK Versions
           required: false
