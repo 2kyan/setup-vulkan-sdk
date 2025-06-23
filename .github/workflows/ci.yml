@@ -2,7 +2,7 @@ name: Setup
 on:
   push:
   pull_request:
-    branches: [ main ]
+    branches: [ main, dev ]
   workflow_dispatch:
       inputs:
         extra_tests:
