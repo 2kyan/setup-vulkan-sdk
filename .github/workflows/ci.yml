@@ -8,7 +8,7 @@ on:
         extra_tests:
           description: 'Enable additional CI tests'
           required: false
-          default: 'true'
+          default: true
         components:
           description: Vulkan SDK Components
           required: false
